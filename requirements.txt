@@ -1,0 +1,13 @@
+# Runtime requirements for titanic.py
+# install with:  python -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+joblib>=1.3
+
+# Boosting candidates. titanic.py degrades gracefully if these are missing:
+#   * no xgboost  -> sklearn's HistGradientBoostingClassifier is used instead
+#   * no lightgbm -> the third candidate is simply skipped
+xgboost>=2.0
+lightgbm>=4.0

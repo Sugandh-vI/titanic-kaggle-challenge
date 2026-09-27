@@ -1,0 +1,4 @@
+model,holdout_acc,cv5_mean,cv5_std,cv5x2_mean,cv5x2_se,seconds
+RandomForest,0.8212,0.8451,0.0192,0.8417,0.0055,17.2
+XGBoost,0.7989,0.8417,0.017,0.8389,0.0066,2.2
+LightGBM,0.8045,0.835,0.0192,0.8322,0.0064,2.0
